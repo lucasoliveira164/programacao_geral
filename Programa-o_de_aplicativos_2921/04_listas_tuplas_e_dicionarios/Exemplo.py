@@ -14,7 +14,7 @@ print(nomes[0])
 
 print(nomes[1])
 
-#Podemods acessar o ultimo elemento usando -1
+#Podemos acessar o ultimo elemento usando -1
 
 print(nomes[-1])
 
@@ -37,5 +37,36 @@ print(nomes)
 nomes.insert(1, "Mariana")
 print(nomes)
 
+#10. Lista de números
+notas = [7.5, 8.0, 6.5, 9.0]
+soma = 0
 
+for nota in notas:
+    soma += nota
+
+    media = soma / len(notas)
+    print(f"Média: {media:.1f}")
+
+#11. Tuplas
+#Tuplas são semelhantes às listas.
+#A principal diferença é que tuplas nã podem
+#ser alteradas depois de criadas
+
+coordenadas = (10,20)
+print(coordenadas)
+
+# Acessando elementos
+print (coordenadas[0])
+print (coordenadas[1])
+
+#12. Dicionários
+# Dicionários armazenam informações no formato:
+# chave: valor
+
+aluno = {
+    "nome": "Ana",
+    "idade": 18,
+    "nota": 8.5
+}
+print(aluno)
 
